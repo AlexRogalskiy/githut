@@ -1,0 +1,33 @@
+{
+  "extends": [
+    "standard",
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "plugins": [
+    "standard",
+    "mocha",
+    "react",
+    "promise"
+  ],
+  "parser": "babel-eslint",
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true
+  },
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "settings": {
+    "import/ignore": [
+      ".styl$"
+    ]
+  },
+  "rules": {
+    "mocha/no-exclusive-tests": "error",
+    "react/prop-types": [0 , {}],
+    "indent": ["error", 4],
+    "operator-linebreak": off
+  }
+}

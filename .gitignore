@@ -1,0 +1,11 @@
+# npm
+node_modules
+*.log
+*.gz
+
+# deploy
+public
+.publish
+
+# test
+coverage
